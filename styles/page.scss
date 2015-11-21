@@ -1,0 +1,47 @@
+$background-color: rgb(238, 236, 223);
+$font-size: 4px;
+$padding: 5px;
+$font-family: Arial;
+
+.a-page {
+    background-color: $background-color;
+    height: 600px;
+    &__head {
+        padding-top: $padding * 6;
+    }
+}
+
+.a-page__header {
+    padding-top: $padding * 6;
+}
+
+.a-logo__text, .a-link__text {
+    font-size: $font-size * 3;
+    font-weight: bold;
+    
+}
+
+.b-link__text {
+    color: rgb(233, 94, 0);
+}
+
+.b-text__maxi {
+    font-size: $font-size * 6;
+    font-weight: bold;
+    color: rgb(59, 74, 95);
+}
+
+.c-text__mini {
+    font-size: $font-size * 3;
+    color: rgb(59, 74, 95);
+    
+}
+
+.d-head__video {
+    background-color: #000;
+    height: 300px;
+    
+    
+    
+}
+
