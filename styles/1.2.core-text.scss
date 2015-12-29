@@ -1,0 +1,10 @@
+.core {
+    margin-top: 60px;
+    text-align: center;
+    &__title {
+        color: rgb(75, 85, 95);
+        font-size: $font-size * 15;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}

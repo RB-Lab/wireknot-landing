@@ -1,0 +1,11 @@
+.company {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    &__facebook {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 2px solid rgb(87, 125, 190);
+        background: url(img/face.png);
+    }
+}

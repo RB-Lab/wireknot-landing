@@ -1,0 +1,23 @@
+%type-text {
+    font-size: $font-size * 3.5;
+    color: rgb(230, 230, 230);
+}
+
+.plan {
+    &__feature {
+        color: rgb(230, 230, 230);
+        list-style: disc;
+        font-size: $font-size * 3.5;
+        padding-bottom: 6px;
+        }
+        &__text-guest {
+            @extend %type-text;
+        }
+        &__text {
+            @extend %type-text;
+        }
+}
+
+
+
+

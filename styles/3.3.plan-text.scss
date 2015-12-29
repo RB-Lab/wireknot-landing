@@ -1,0 +1,21 @@
+.plan {
+    padding-top: 5px;
+    &__title {
+        display: block;
+        height: $font-size * 8.75;
+        line-height: $font-size * 8.75;
+        text-transform: uppercase;
+        color: rgb(230, 230, 230);
+        font-size: $font-size * 3.5;
+    }
+    &__big-title {
+        font-size: $font-size * 7;
+        text-transform: none;
+    }
+    &__subtitle {
+        font-size: $font-size * 3.5;
+        color: #000;
+    }
+}
+
+

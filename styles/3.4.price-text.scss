@@ -1,0 +1,16 @@
+.price {
+    color: rgb(230, 230, 230);
+    &__buks {
+        font-size: $font-size * 3.5;
+        vertical-align: top;
+    }
+    &__number {
+        font-size: $font-size * 15;
+        font-weight: bold;
+    }
+    &__time {
+        font-size: $font-size * 3.5;
+    }
+
+}
+
