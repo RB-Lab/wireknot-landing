@@ -4,47 +4,288 @@
     <meta charset="UTF-8">
     <title>Landing</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
 </head>
 <body>
-   <div class="container a-page">
-       <div class="row a-page__head">
-           <div class="col-md-2 col-md-offset-2 a-head__logo">
-               <p class="text-uppercase a-logo__text">
-                    wireknot
-               </p>
-           </div>
-           <div class="col-md-2 col-md-offset-5 a-head__link">
-               <a href="#" class="a-link">
-                   <p class="text-uppercase a-link__text">
-                       try alpha
-                   </p>
-               </a>
-           </div>
-           <div class="col-md-1">
-               
-           </div>
-        </div>
-        <div class="row b-page__head">
-            <div class="col-md-6 col-md-offset-3 b-head__text">
-                <p class="text-uppercase text-center b-text__maxi">
+    <section class="header">
+        <div class="container">
+            <div class="row header__top-line top-line">
+                <div class="col-md-3 top-line__logo logo">
+                    <img src="img/logo.png" class="logo__img img img-responsive"></img>
+                    <h2 class="logo__title">
+                        wireknot
+                    </h2>
+                </div>
+                <div class="col-md-2 col-md-offset-7 top-line__annex annex">
+                    <a href="#" class="annex__link">
+                        <h3 class="link__title">
+                            try alpha
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="header__core core">
+                <h1 class="row core__title">
                     create applications<br>
                     without coding
-                </p>
+                </h1>
+            </div>
+            <div class="header__subtitle sub">
+                <h5 class="row sub__title">
+                    Create applications for web and mobile using simple block  schemes!
+                </h5>
+            </div>
+            <div class="row header__video">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe embed-responsive-item src="https://www.youtube.com/embed/0I22FE_yRGc" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
             </div>
         </div>
-        <div class="row c-page__head">
-            <div class="col-md-6 col-md-offset-3 c-head__text">
-                <p class="text-center c-text__mini">
-                    Create applications for web and mobile using simple block schemes!
-                </p>
+    </section>
+    <section class="features">
+        <div class="container">
+            <ul class="features__list">
+                <li class="row features__elem feature">
+                    <img src="img/1.png" class="col-md-7 feature__img img-responsive"></img>
+                    <div class="col-md-5 feature__content content">
+                        <h3 class="content__title">
+                            Get the real interactivity<br>
+                            worth XXI century
+                        </h3>
+                        <p class="content__section">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Fusce lorem neque, interdum vel aliquet ac, ornare ut
+                            orci. Aenean pulvinar dolor non risus egestas vestibulum.
+                        </p>
+                    </div>
+                </li>
+                <li class="row features__elem feature">
+                    <div class="col-md-5 feature__content">
+                        <h3 class="content__title">
+                            Try out your design.<br>
+                            Instanly
+                        </h3>
+                        <p class="content__section">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce lorem neque, interdum vel aliquet ac,
+                            ornare ut orci. Aenean pulvinar dolor non risus
+                            egestas vestibulum.
+                        </p>
+                    </div>
+                    <img src="img/2.png" class="col-md-7 feature__img img-responsive"></img>
+                </li>
+                <li class="row features__elem scheme">
+                    <img src="img/3.png" class="col-md-7 feature__img img-responsive"></img>
+                    <div class="col-md-5 feature__content">
+                        <h3 class="content__title">
+                            Rapid prototyping
+                        </h3>
+                        <p class="content__section">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Fusce lorem neque, interdum vel aliquet ac, ornare ut
+                            orci. Aenean pulvinar dolor non risus egestas vestibulum.
+                        </p>
+                    </div>
+                </li>
+                <li class="row features__elem feature-subtitle">
+                    <h3 class="feature-subtitle__title">
+                        The new way to create software
+                    </h3>
+                    <p class="feature-subtitle__section">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                        Fusce lorem neque, interdum vel aliquet ac, ornare ut orci.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="pricing">
+        <div class="container">
+            <h2 class="pricing__title">
+                Simple Plans for Everyone!
+            </h2>
+            <p class="pricing__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Fusce lorem neque, <br>
+                interdum vel aliquet ac, ornare ut orci.
+            </p>
+            <ul class="row pricing__list">
+                <li class="col-md-2 col-md-offset-1 pricing__item plan">
+                    <div class="plan-height">
+                        <h3 class="plan__title">
+                            free
+                        </h3>
+                        <h4 class="plan__price price">
+                            <span class="price__buks">$</span>
+                            <span class="price__number">0</span>
+                            <span class="price__time">/mo.</span>
+                        </h4>
+                        <ul class="plan__features-list">
+                            <li class="plan__feature">
+                                Visual edition
+                            </li>
+                            <li class="plan__feature">
+                                Run
+                            </li>
+                            <li class="plan__feature">
+                                Deploy to sub domain
+                            </li>
+                            <li class="plan__feature">
+                                Deploy up to 5 apps
+                            </li>
+                            <li class="plan__feature">
+                                All project available<br>
+                                for others
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="plan__purchase">
+                        comming soon
+                    </button>
+                </li>
+                <li class="col-md-2 pricing__item plan">
+                    <div class="plan-height">
+                        <h3 class="plan__title">
+                            individual
+                        </h3>
+                        <h4 class="plan__price price">
+                            <span class="price__buks">$</span>
+                            <span class="price__number">9</span>
+                            <span class="price__time">/mo.</span>
+                        </h4>
+                        <ul class="plan__features-list">
+                            <li class="plan__feature">
+                                All Free plan features
+                            </li>
+                            <li class="plan__feature">
+                                Custom domains
+                            </li>
+                            <li class="plan__feature">
+                                Private project
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="plan__purchase">
+                        comming soon
+                    </button>
+                </li>
+                <li class="col-md-2 pricing__item plan -active">
+                    <div class="plan-height">
+                        <h3 class="plan__title">
+                            <span class="plan__big-title">β</span>-offer
+                        </h3>
+                        <h4 class="plan__price price">
+                            <span class="price__buks">$</span>
+                            <span class="price__number">10</span>
+                            <span class="price__time">/mo.</span>
+                        </h4>
+                        <h4 class="plan__subtitle">
+                            limited offer!
+                        </h4>
+                        <ul class="plan__features-list">
+                            <li class="plan__feature">
+                                All Free plan features
+                            </li>
+                            <li class="plan__feature">
+                                Early access to β
+                            </li>
+                            <li class="plan__feature">
+                                Private project
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="plan__purchase purshase -active">
+                        get started - $10
+                    </button>
+                </li>
+                <li class="col-md-2 pricing__item plan">
+                    <div class="plan-height">
+                        <h3 class="plan__title">
+                            premium
+                        </h3>
+                        <h4 class="plan__price price">
+                            <span class="price__buks">$</span>
+                            <span class="price__number">30</span>
+                            <span class="price__time">/mo.</span>
+                        </h4>
+                        <ul class="plan__features-list">
+                            <li class="plan__feature">
+                                All Free plan features
+                            </li>
+                            <li class="plan__feature">
+                                Real time collaboration
+                            </li>
+                            <li class="plan__feature">
+                                Up to 20 apps
+                            </li>
+                            <li class="plan__feature">
+                                Publick in mobile<br>
+                                marcets
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="plan__purchase">
+                        comming soon
+                    </button>
+                </li>
+                <li class="col-md-2 pricing__item plan -individual">
+                    <div class="plan-height">
+                        <h3 class="plan__title">
+                            corporative
+                        </h3>
+                        <img src="img/default_logo.png" class="plan__img"></img>
+                        <h4 class="plan__text-guest">
+                            Need more?
+                        </h4>
+                        <h4 class="plan__text">
+                            Contact us what exactly<br>
+                            you need
+                        </h4>
+                    </div>
+                    <button class="plan__purchase -individual">
+                        contact
+                    </button>
+                </li>
+                <li class="col-md-1"></li>
+            </ul>
+            <p class="row plans__footnote">
+                β-offer guarante: if we dont start β till may 2016, we bring all your money back.
+            </p>
+       </div>
+   </section>
+    <section class="footer">
+        <div class="container">
+            <h1 class="row footer__title">
+                Stay in touch
+            </h1>
+            <h3 class="row footer__subtitle">
+                Still not sure? Come later to see what we got!
+            </h3>
+            <div class="row footer__input input">
+                <input type="text" class="col-md-5 col-md-offset-2 input__line"  name=""/>
+                <button class="col-md-2 input__input-button">
+                    subscribe
+                </button>
+                <div class="col-md-3"></div>
+            </div>
+            <h4 class="row footer__subtitle-sub">
+                no spam, we promise
+            </h4>
+            <div class="row footer__company company">
+                <button class="col-md-2 col-md-offset-4 company__facebook"></button>
+                <button class="col-md-2 company__twitter"></button>
+                <div class="col-md-4"></div>
             </div>
         </div>
-        <div class="row d-page__head">
-            <div class="col-md-6 col-md-offset-3 d-head__video">
-            </div>
+    </section>
+    <section class="bottom">
+        <div class="container">
+            <div class="row bottom-line"></div>
         </div>
-   </div>
+    </section>
 </body>
 </html>
 

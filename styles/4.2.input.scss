@@ -1,0 +1,20 @@
+.input {
+    margin-top: 80px;
+    &__line {
+        border: 1px solid rgb(192, 192, 192);
+        border-radius: 4px 0 0 4px;
+        width: 530px;
+        height: 70px;
+    }
+    &__input-button {
+        background: rgb(221, 19, 92);
+        height: 70px;
+        width: 270px;
+        border-radius: 0 4px 4px 0;
+        color: rgb(255, 183, 220);
+        font-size: $font-size * 5;
+    }
+}
+
+
+

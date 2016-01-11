@@ -1,0 +1,26 @@
+$font-size: 4px;
+%title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.logo {
+    &__title{
+        display: inline-block;
+        @extend %title;
+        font-size: $font-size * 4.5;
+    }
+    &__img{
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.link {
+    &__title{
+        font-size: $font-size * 3.5;
+        color: rgb(192, 110, 54);
+        @extend %title;
+    }
+}
