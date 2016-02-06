@@ -1,11 +1,12 @@
 .price {
     color: rgb(230, 230, 230);
+    padding-top: 6px;
     &__buks {
         font-size: $font-size * 3.5;
         vertical-align: top;
     }
     &__number {
-        font-size: $font-size * 15;
+        font-size: $font-size * 13;
         font-weight: bold;
     }
     &__time {

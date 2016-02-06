@@ -1,18 +1,22 @@
 .input {
-    margin-top: 80px;
+    margin-top: 92px;
+    margin-bottom: 25px;
     &__line {
-        border: 1px solid rgb(192, 192, 192);
         border-radius: 4px 0 0 4px;
-        width: 530px;
-        height: 70px;
+        height: 60px;
+        font-size: $font-size * 6;
+        margin-bottom: 10px;
+        border-style: none;
+
     }
     &__input-button {
         background: rgb(221, 19, 92);
-        height: 70px;
-        width: 270px;
+        height: 60px;
         border-radius: 0 4px 4px 0;
         color: rgb(255, 183, 220);
-        font-size: $font-size * 5;
+        font-size: $font-size * 4;
+        font-weight: bold;
+        border-style: none;
     }
 }
 

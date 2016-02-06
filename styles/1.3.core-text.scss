@@ -1,0 +1,33 @@
+.core {
+    text-align: left;
+    &__title {
+        color: rgb(75, 85, 95);
+        font-size: $font-size * 14;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.sub {
+    text-align: left;
+    margin-top: 30px;
+    &__title {
+        color: rgb(75, 85, 95);
+        margin-top: -5px;
+        font-size: $font-size * 5;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .core {
+        &__title {
+            font-size: $font-size * 10.5;
+        }
+    }
+    .sub {
+        margin-top: 40px;
+        &__title {
+            font-size: $font-size * 4;
+        }
+    }
+}

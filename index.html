@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Landing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SKEM.IO</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="styles.css" type="text/css"/>
 </head>
@@ -10,13 +11,13 @@
     <section class="header">
         <div class="container">
             <div class="row header__top-line top-line">
-                <div class="col-md-3 top-line__logo logo">
-                    <img src="img/logo.png" class="logo__img img img-responsive"></img>
+                <div class="col-xs-6 top-line__logo logo">
+                    <img src="img/logo.png" class="logo__img img"></img>
                     <h2 class="logo__title">
-                        wireknot
+                        skem
                     </h2>
                 </div>
-                <div class="col-md-2 col-md-offset-7 top-line__annex annex">
+                <div class="col-xs-6 top-line__annex annex">
                     <a href="#" class="annex__link">
                         <h3 class="link__title">
                             try alpha
@@ -24,24 +25,25 @@
                     </a>
                 </div>
             </div>
-            <div class="header__core core">
-                <h1 class="row core__title">
-                    create applications<br>
-                    without coding
-                </h1>
-            </div>
-            <div class="header__subtitle sub">
-                <h5 class="row sub__title">
-                    Create applications for web and mobile using simple block  schemes!
-                </h5>
-            </div>
-            <div class="row header__video">
-                <div class="col-md-6 col-md-offset-3">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe embed-responsive-item src="https://www.youtube.com/embed/0I22FE_yRGc" frameborder="0" allowfullscreen></iframe>
+            <div class="row header__main main">
+                <div class="col-md-6 main__main-left main-left">
+                    <div class="main-left__core core">
+                        <h1 class="row core__title">
+                            Create interactive web applications
+                            like you draw
+                        </h1>
+                    </div>
+                    <div class="main-left__subtitle sub">
+                        <h5 class="row sub__title">
+                            You ain't gonna need a degree in computer science to create an app
+                        </h5>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-6 main__main-right video">
+                    <div class="video__cup embed-responsive embed-responsive-16by9">
+                     <!--  <iframe width="560" height="315" src="https://www.youtube.com/embed/5iRhiucUVAw?list=PLqJqlC6LvwIgj-ADN_VuWFRZjbt4bZyIY?wmode=opaque&amp;showinfo=0&amp;autoplay=1&amp;controls=0&amp;modestbranding=1&amp;vq=&amp;rel=0" frameborder="0" allowfullscreen embed-responsive-item></iframe>-->
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -49,54 +51,83 @@
         <div class="container">
             <ul class="features__list">
                 <li class="row features__elem feature">
-                    <img src="img/1.png" class="col-md-7 feature__img img-responsive"></img>
-                    <div class="col-md-5 feature__content content">
-                        <h3 class="content__title">
-                            Get the real interactivity<br>
-                            worth XXI century
-                        </h3>
-                        <p class="content__section">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Fusce lorem neque, interdum vel aliquet ac, ornare ut
-                            orci. Aenean pulvinar dolor non risus egestas vestibulum.
-                        </p>
+                    <div class="col-xs-12 col-md-5 col-md-push-7 feature__content content">
+                        <div class="content__container">
+                            <h3 class="content__title">
+                                Get the real interactivity<br>
+                                worth XXI century
+                            </h3>
+                            <p class="content__section">
+                               In Skem.io you can create highly interactive rich web
+                               applications that can interact with users in real time.
+                               Don't confine your imagination anymore! Create not only
+                               static web pages but anything you have in mind - image
+                               editors, interactive data visualizations, chats, even
+                               3D browser games!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-7 col-md-pull-5 feature__img">
+                        <img src="img/1.png" class="feature__img-exsampel img-responsive"></img>
                     </div>
                 </li>
                 <li class="row features__elem feature">
                     <div class="col-md-5 feature__content">
-                        <h3 class="content__title">
-                            Try out your design.<br>
-                            Instanly
-                        </h3>
-                        <p class="content__section">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Fusce lorem neque, interdum vel aliquet ac,
-                            ornare ut orci. Aenean pulvinar dolor non risus
-                            egestas vestibulum.
-                        </p>
+                        <div class="content__container">
+                            <h3 class="content__title">
+                                Try out your design.<br>
+                                Instanly
+                            </h3>
+                            <p class="content__section">
+                                You don't need to wait when coders turn your design
+                                into working software. Now you can do it on your own.
+                                Just draw diagrams of user interactions and data flow
+                                and hit the run button. You will have the fully working
+                                application so you can try it out if all things you
+                                just created are actually handy and lead to proper
+                                user experience.
+                            </p>
+                        </div>
                     </div>
-                    <img src="img/2.png" class="col-md-7 feature__img img-responsive"></img>
-                </li>
-                <li class="row features__elem scheme">
-                    <img src="img/3.png" class="col-md-7 feature__img img-responsive"></img>
-                    <div class="col-md-5 feature__content">
-                        <h3 class="content__title">
-                            Rapid prototyping
-                        </h3>
-                        <p class="content__section">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Fusce lorem neque, interdum vel aliquet ac, ornare ut
-                            orci. Aenean pulvinar dolor non risus egestas vestibulum.
-                        </p>
+                    <div class="col-md-7 feature__img">
+                        <img src="img/2.png" class="feature__img-exsampel img-responsive"></img>
                     </div>
                 </li>
-                <li class="row features__elem feature-subtitle">
+                <li class="row features__elem scheme -rapid">
+                    <div class="col-xs-12 col-md-5 col-md-push-7 feature__content">
+                        <div class="content__container">
+                            <h3 class="content__title">
+                                Rapid prototyping
+                            </h3>
+                            <p class="content__section">
+                                "Fail Fast, Fail Often, Fail Forward". Now you don't
+                                need to run full cycle of application development just
+                                to figure out that your hypothesis was wrong. You also
+                                don't need to scary your potential users with mock-ups.
+                                Construct your application as you played with Lego in
+                                you childhood, and when you done just hit the "Publish"
+                                button, and your app will face the market.
+                            </p>
+                            </div>
+                    </div>
+                    <div class="col-xs-12 col-md-7 col-md-pull-5 feature__img">
+                        <img src="img/3.png" class="feature__img-exsampel img-responsiveplan"></img>
+                    </div>
+                </li>
+                <li class="row features__elem feature-subtitle -soft">
                     <h3 class="feature-subtitle__title">
                         The new way to create software
                     </h3>
                     <p class="feature-subtitle__section">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                        Fusce lorem neque, interdum vel aliquet ac, ornare ut orci.
+                        But Skem.io is not just yet another prototyping tool.
+                        It's a whole new way to create a software. Visually.
+                        Easily reasonable. The way where you don't need to spend
+                        4 years to learn how to write the code that will (probably)
+                        work and another 3 years to learn how to write the code
+                        that somebody else could work with. We accommodate approaches
+                        and best practices software industry evolved for 50 years
+                        of it's existence and bring it to your service in new
+                        visual and easily understandable format.
                     </p>
                 </li>
             </ul>
@@ -113,16 +144,20 @@
                 interdum vel aliquet ac, ornare ut orci.
             </p>
             <ul class="row pricing__list">
-                <li class="col-md-2 col-md-offset-1 pricing__item plan">
+                <li class="col-md-2 col-md-offset-1 col-xs-4 pricing__item plan"><div class="pricing__block">
                     <div class="plan-height">
-                        <h3 class="plan__title">
-                            free
-                        </h3>
-                        <h4 class="plan__price price">
-                            <span class="price__buks">$</span>
-                            <span class="price__number">0</span>
-                            <span class="price__time">/mo.</span>
-                        </h4>
+                        <div class="plan__head-title">
+                            <h3 class="plan__title">
+                                free
+                            </h3>
+                        </div>
+                        <div class="plan__main-title">
+                            <h4 class="plan__price price">
+                                <span class="price__buks">$</span>
+                                <span class="price__number">0</span>
+                                <span class="price__time">/mo.</span>
+                            </h4>
+                        </div>
                         <ul class="plan__features-list">
                             <li class="plan__feature">
                                 Visual edition
@@ -142,20 +177,25 @@
                             </li>
                         </ul>
                     </div>
-                    <button class="plan__purchase">
-                        comming soon
-                    </button>
+                        <button class="plan__purchase">
+                            comming soon
+                        </button>
+                    </div>
                 </li>
-                <li class="col-md-2 pricing__item plan">
+                <li class="col-md-2 col-xs-4 pricing__item plan">
                     <div class="plan-height">
-                        <h3 class="plan__title">
-                            individual
-                        </h3>
-                        <h4 class="plan__price price">
-                            <span class="price__buks">$</span>
-                            <span class="price__number">9</span>
-                            <span class="price__time">/mo.</span>
-                        </h4>
+                        <div class="plan__head-title">
+                            <h3 class="plan__title">
+                                individual
+                            </h3>
+                        </div>
+                        <div class="plan__main-title">
+                            <h4 class="plan__price price">
+                                <span class="price__buks">$</span>
+                                <span class="price__number">9</span>
+                                <span class="price__time">/mo.</span>
+                            </h4>
+                        </div>
                         <ul class="plan__features-list">
                             <li class="plan__feature">
                                 All Free plan features
@@ -172,19 +212,23 @@
                         comming soon
                     </button>
                 </li>
-                <li class="col-md-2 pricing__item plan -active">
+                <li class="col-md-2 col-xs-4 pricing__item plan -active">
                     <div class="plan-height">
-                        <h3 class="plan__title">
-                            <span class="plan__big-title">β</span>-offer
-                        </h3>
-                        <h4 class="plan__price price">
-                            <span class="price__buks">$</span>
-                            <span class="price__number">10</span>
-                            <span class="price__time">/mo.</span>
-                        </h4>
-                        <h4 class="plan__subtitle">
-                            limited offer!
-                        </h4>
+                        <div class="plan__head-title -active">
+                            <h3 class="plan__title -active">
+                                <span class="plan__big-title">β</span>-offer
+                            </h3>
+                        </div>
+                        <div class="plan__main-title">
+                            <h4 class="plan__price price">
+                                <span class="price__buks">$</span>
+                                <span class="price__number">10</span>
+                                <span class="price__time">/mo.</span>
+                            </h4>
+                            <h4 class="plan__subtitle">
+                                limited offer!
+                            </h4>
+                        </div>
                         <ul class="plan__features-list">
                             <li class="plan__feature">
                                 All Free plan features
@@ -193,7 +237,7 @@
                                 Early access to β
                             </li>
                             <li class="plan__feature">
-                                Private project
+                                All options of Premium user forever!
                             </li>
                         </ul>
                     </div>
@@ -201,16 +245,20 @@
                         get started - $10
                     </button>
                 </li>
-                <li class="col-md-2 pricing__item plan">
+                <li class="col-md-2 col-xs-4 pricing__item plan">
                     <div class="plan-height">
-                        <h3 class="plan__title">
-                            premium
-                        </h3>
-                        <h4 class="plan__price price">
-                            <span class="price__buks">$</span>
-                            <span class="price__number">30</span>
-                            <span class="price__time">/mo.</span>
-                        </h4>
+                        <div class="plan__head-title">
+                            <h3 class="plan__title">
+                                premium
+                            </h3>
+                        </div>
+                        <div class="plan__main-title">
+                            <h4 class="plan__price price">
+                                <span class="price__buks">$</span>
+                                <span class="price__number">30</span>
+                                <span class="price__time">/mo.</span>
+                            </h4>
+                        </div>
                         <ul class="plan__features-list">
                             <li class="plan__feature">
                                 All Free plan features
@@ -231,11 +279,13 @@
                         comming soon
                     </button>
                 </li>
-                <li class="col-md-2 pricing__item plan -individual">
+                <li class="col-md-2 col-xs-4 pricing__item plan -individual">
                     <div class="plan-height">
-                        <h3 class="plan__title">
-                            corporative
-                        </h3>
+                        <div class="plan__head-title">
+                            <h3 class="plan__title">
+                                corporative
+                            </h3>
+                        </div>
                         <img src="img/default_logo.png" class="plan__img"></img>
                         <h4 class="plan__text-guest">
                             Need more?
@@ -265,19 +315,22 @@
                 Still not sure? Come later to see what we got!
             </h3>
             <div class="row footer__input input">
-                <input type="text" class="col-md-5 col-md-offset-2 input__line"  name=""/>
-                <button class="col-md-2 input__input-button">
+                <input type="text" class="col-md-5 col-md-offset-2 col-xs-12 input__line"  name=""/>
+                <button class="col-md-3 col-xs-12 input__input-button">
                     subscribe
                 </button>
-                <div class="col-md-3"></div>
+                <div class="col-md-2"></div>
             </div>
             <h4 class="row footer__subtitle-sub">
                 no spam, we promise
             </h4>
             <div class="row footer__company company">
-                <button class="col-md-2 col-md-offset-4 company__facebook"></button>
-                <button class="col-md-2 company__twitter"></button>
-                <div class="col-md-4"></div>
+                <div class="company__facebook">
+                    <img src="img/face.png" class="center-block">
+                </div>
+                <div class="company__twitter">
+                    <img src="img/tw_logo.png" class="center-block">
+                </div>
             </div>
         </div>
     </section>

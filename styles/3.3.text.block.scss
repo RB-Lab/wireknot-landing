@@ -1,0 +1,19 @@
+.plan {
+    &__head-title {
+    padding-top: 20px;
+        &.-active {
+            padding-top: 3px;
+        }
+    }
+    &__main-title {
+        padding-left: 20px;
+
+    }
+    &__img {
+        margin-top: 13px;
+    }
+}
+
+.plan-height {
+    height: 295px;
+}
