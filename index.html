@@ -345,8 +345,14 @@
     </section>
     <script src="//www.parsecdn.com/js/parse-1.6.14.min.js"></script>
     <script type="text/javascript" src="https://cdn.rawgit.com/RB-Lab/email-validator/master/validate.min.js"></script>
+    <script async src='//www.google-analytics.com/analytics.js'></script>
     <script type="text/javascript">
-        /* global Parse, validate */
+        /* global Parse, validate, ga */
+
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-72958536-1', {'cookieDomain': 'none'});
+        ga('send', 'pageview');
+
         Parse.initialize("OpWnakULNl1UJaneqTMzeJv0lWF9nQE1edHnK6YM", "gA0t1etLwZ42fIPfsm9d7pOVFlBP1S8gnAYyL5Mr");
         (function(){
             "use strict";
@@ -355,6 +361,8 @@
 
             function checkEmail(){
                 var valid = validate($email.value);
+                var action = valid ? 'succesful try to soubscribe' : 'succesful try to soubscribe';
+                ga('send', 'event', 'landing subscription', action, $email.value);
                 if(valid){
                     $email.classList.remove('input__line--wrong');
                     $email.classList.add('input__line--right');
@@ -382,6 +390,7 @@
                         setTimeout(clear, 1500);
                     },
                     error: function(){
+                        ga('send', 'exception', {exDescription: 'Subscription request failed', exFatal: false});
                         $button.classList.remove('input__input-button--waiting');
                         $button.classList.add('input__input-button--failed');
                         setTimeout(clear, 1500);
