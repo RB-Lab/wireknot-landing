@@ -1,31 +1,8 @@
 .features {
-    background: url(img/background-02.png);
-    padding-top: 100px;
+    background: #F0F0F1;
     background-size: cover;
-    &__elem {
-        margin-bottom: 230px;
-        &.-rapid {
-            margin-bottom: 130px;
-        }
-        &.-soft {
-            margin-bottom: 100px;
-        }
-    }
+    padding-bottom: 3%;
 }
-
-ul {
-    padding: 0px;
-}
-
-li {
-    list-style-type: none;
-}
-
 @media screen and (max-width: 769px) {
-    .features {
-        padding-top: 80px;
-        &__elem {
-           margin-bottom: 80px;
-        }
-    }
+
 }

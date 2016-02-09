@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+
+
+@import "styles/vars";
+@import "styles/common";
 @import "styles/media";
 @import "styles/1.0.header";
 @import "styles/1.1.top-line";
@@ -6,6 +11,7 @@
 @import "styles/1.4.video";
 @import "styles/2.0.features";
 @import "styles/2.1.container";
+@import "styles/2.1.feature";
 @import "styles/2.2.img";
 @import "styles/2.3.text";
 @import "styles/3.0.pricing";
@@ -21,7 +27,7 @@
 @import "styles/4.0.footer";
 @import "styles/4.1.footer.title";
 @import "styles/4.2.input";
+@import "styles/4.2.1.input-btn";
 @import "styles/4.3.subtitle";
 @import "styles/4.4.company";
 @import "styles/5.1.bottom-line";
-

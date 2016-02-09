@@ -1,5 +1,22 @@
+.subtitle-sub {
+    height: 30px;
+    line-height: 30px;
+}
+
+
 .footer {
-    &__subtitle-sub {
-        font-size: $font-size * 3.5;
+    &__text {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 300;
+    }
+    &__line {
+        margin-top: 16px;
+        height: 1px;
+        background: #625433;
+        &.-none {
+            background: none;
+        }
     }
 }
+

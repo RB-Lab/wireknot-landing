@@ -1,9 +1,14 @@
 .footer {
-  &__title {
-        font-size: $font-size * 14;
-    }
-    &__subtitle {
-      margin-top: 10px;
-        @extend %text;
-    }
+  &__title-header {
+    margin-top: 50px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 300;
+  }
+  &__title-bottom {
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    margin-top: -2px;
+  }
 }

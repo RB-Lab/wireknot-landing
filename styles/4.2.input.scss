@@ -1,20 +1,15 @@
-$subscribe-color: rgb(255, 183, 220);
-%btn-state{
-    color: $subscribe-color;
-    position: absolute;
-    left: 0;
-    right: 0;
-}
+$subscribe-color: #000;
 
 .input {
-    margin-top: 92px;
-    margin-bottom: 25px;
+    margin: 23px 0 25px 0;
     &__line {
-        border-radius: 4px 0 0 4px;
-        height: 60px;
-        font-size: $font-size * 6;
+        border-radius: 4px 4px 4px 4px;
+        height: 49px;
+        font-size: 14px;
         margin-bottom: 10px;
         border-style: none;
+        background-color: #E5E5E5;
+        margin-right: 8px;
         &--wrong{
             box-shadow: inset 0 0 3px 1px #C50417;
             outline: none;
@@ -22,33 +17,6 @@ $subscribe-color: rgb(255, 183, 220);
         &--right{
             box-shadow: inset 0 0 3px 1px #49964A;
             outline: none;
-        }
-    }
-    &__input-button {
-        background: rgb(221, 19, 92);
-        height: 60px;
-        border-radius: 0 4px 4px 0;
-        color: $subscribe-color;
-        font-size: $font-size * 4;
-        font-weight: bold;
-        border-style: none;
-        &--waiting{
-            background: #dd135c url(/img/loader.gif) no-repeat 50% 50%;
-            color: transparent;
-        }
-        &--success{
-            color: transparent;
-            &:after {
-                @extend %btn-state;
-                content: "Success!";
-            }
-        }
-        &--failed{
-            color: transparent;
-            &:after {
-                @extend %btn-state;
-                content: "Something went wrong...";
-            }
         }
     }
 }
