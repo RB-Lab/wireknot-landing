@@ -2,6 +2,9 @@
     background: #F0F0F1;
     background-size: cover;
     padding-bottom: 3%;
+    &__header {
+        text-align: center;
+    }
 }
 @media screen and (max-width: 769px) {
 

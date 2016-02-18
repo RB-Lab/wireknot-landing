@@ -1,22 +1,30 @@
-%bundle {
+%bundle{
     content: " ";
     display: inline-block;
-    margin-right: 12px;
     width: 8px;
     height: 8px;
     border-radius: 50%;
+    font-size: 16px;
+    position: absolute;
+    left: 0px;
+    margin-top: 6px;
 }
 
-.bundles {
-    &__text {
-        font-weight: 400;
-        &:before{
-            @extend %bundle;
-            background-color: #000;
+.bundles{
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    &__bundle {
+        padding-left: 8px;
+        padding-bottom: 7px;
+        &.-white {
+            &:before{
+                @extend %bundle;
+                background-color: #fff;
+            }
         }
         &.-orange {
-            font-size: 16px;
-            &:before {
+            &:before{
                 @extend %bundle;
                 background-color: #efcc7c;
             }
