@@ -1,0 +1,10 @@
+.pricing {
+   &__title {
+        font-size: $font-size * 14;
+    }
+    &__subtitle {
+        margin-top: 10px;
+        @extend %text;
+
+    }
+}

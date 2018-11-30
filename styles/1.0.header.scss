@@ -1,4 +1,44 @@
 .header {
-    background: url(img/background.png);
+    min-height: 100vh;
+    background: url(img/about_top.png);
     padding-top: 20px;
+    background-size: cover;
+    &__main-part{
+        padding-top: 40px;
+    }
+    &__main-title{
+        font-size: 48px;
+        font-weight: 300;
+        margin-top: 60px;
+        @media screen and (max-width: 990px) {
+            margin-top: 0;
+        }
+    }
+    &__subtitle{
+        margin: -0.5em 0 2.8em 0;
+        color: #5f5f5f;
+        font-size: 16px;
+    }
+    &__subtitle-sub {
+        font-weight: 400;
+    }
+    &__video{
+        margin: 50px 0;
+    }
+    &__try-it{
+        @extend %title;
+        width: 390px;
+        background: #EFCD7C;
+        color: #333;
+        padding: 1em;
+        font-size: 1.2em;
+        margin-top: 60px;
+        &:hover{
+            background: #FACE64
+        }
+        @media screen and (max-width: 480px) {
+            width: 100%;
+        }
+    }
 }
+

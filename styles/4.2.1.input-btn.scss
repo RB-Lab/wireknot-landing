@@ -1,0 +1,40 @@
+%btn-state{
+    color: $subscribe-color;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.input {
+    &__input-button {
+        background: #EFCC7C;
+        height: 52px;
+        border-radius: 4px 4px 4px 4px;
+        color: $subscribe-color;
+        font-size: 12px;
+        font-weight: bold;
+        border-style: none;
+        text-transform: uppercase;
+        &:hover {
+            background: #EDC56D;
+        }
+        &--waiting{
+            background: #EFCC7C url(/img/loader.gif) no-repeat 50% 50%;
+            color: transparent;
+        }
+        &--success{
+            color: transparent;
+            &:after {
+                @extend %btn-state;
+                content: "Success!";
+            }
+        }
+        &--failed{
+            color: transparent;
+            &:after {
+                @extend %btn-state;
+                content: "Something went wrong...";
+            }
+        }
+    }
+}

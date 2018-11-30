@@ -1,11 +1,14 @@
 .company {
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin: 40px 0 13px 0;
     &__facebook {
-        height: 100px;
         width: 100px;
-        border-radius: 50%;
-        border: 2px solid rgb(87, 125, 190);
-        background: url(img/face.png);
+        height: 110px;
+        display: inline-block;
+    }
+    &__twitter {
+        width: 100px;
+        height: 105px;
+        display: inline-block;
     }
 }
+
